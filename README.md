@@ -21,5 +21,5 @@ https://notes-gpt.streamlit.app/
 Refer above link for trying it by yourself...🙃🤞🏻
 
 ## NOTE
-"notes-gpt" is just a Retrieval-Augmented Generation (RAG) project I built as an experiment to understand the full RAG pipeline hands-on, not just wiring together a framework, but implementing chunking, hybrid retrieval, reranking, and citation-grounded generation from scratch.
+"notes-gpt" is just a Retrieval-Augmented Generation (RAG) project I built as an experiment to understand the full RAG pipeline hands-on, not just wiring together a framework, but implementing CHUNKING, HYBRID Retrieval, RERANKING, and Citation-grounded generation from scratch.
 Each user's uploaded PDFs are indexed into an isolated, in-memory vector store scoped to their browser session — nothing is persisted or shared between users. Answers are generated only from retrieved context, with the model instructed to say "I don't know" rather than hallucinate when nothing relevant is found. Hope you try it...
