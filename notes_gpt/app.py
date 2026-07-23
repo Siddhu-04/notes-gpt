@@ -7,7 +7,7 @@ from chat import answer_streaming
 
 def setup_page():
     st.set_page_config(page_title="notes-gpt", page_icon="📖")
-    st.title("🗒️ --> notes-gpt — chat with your own PDFs")
+    st.title("notes-gpt → chat with your own PDFs")
     if "messages" not in st.session_state:
         st.session_state.messages = []
     if "collection" not in st.session_state:
