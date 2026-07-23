@@ -16,3 +16,5 @@ uv run streamlit run app.py
 \`\`\`
 
 ## Live demo
+https://notes-gpt.streamlit.app/
+Refer above link for trying it by yourself...Hope it works...🥲🤞🏻
