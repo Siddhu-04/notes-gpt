@@ -7,14 +7,14 @@ from chat import answer_streaming
 
 def setup_page():
     st.set_page_config(page_title="notes-gpt", page_icon="📖")
-    st.title("📖 notes-gpt — chat with your own PDFs")
+    st.title("🗒️ --> notes-gpt — chat with your own PDFs")
     if "messages" not in st.session_state:
         st.session_state.messages = []
     if "collection" not in st.session_state:
         st.session_state.collection = None
 
     with st.sidebar:
-        st.header("Your documents")
+        st.header("Your documents...")
         st.caption("Uploads are kept in memory for this session only and are not shared with other users.")
         files = st.file_uploader("Upload PDFs", type="pdf", accept_multiple_files=True)
         if files and st.button("Index documents"):
@@ -45,7 +45,7 @@ def render_history():
             st.markdown(m["content"])
 
 def handle_chat():
-    if q := st.chat_input("Ask anything from your uploaded PDFs"):
+    if q := st.chat_input("Ask anything from your uploaded PDFs..."):
         st.session_state.messages.append({"role": "user", "content": q})
         with st.chat_message("user"):
             st.markdown(q)
