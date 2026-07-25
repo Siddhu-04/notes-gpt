@@ -1,0 +1,242 @@
+[
+  {
+    "user_input":"What does the First Law of Thermodynamics state?",
+    "retrieved_contexts":[
+      "Thermodynamics\nFirst Law: energy cannot be created or destroyed; change in internal energy equals heat minus work. Second\nLaw: entropy of an isolated system never decreases. Third Law: entropy approaches zero at absolute zero\ntemperature. Carnot efficiency sets the upper limit for heat engines. Enthalpy H = U + PV. Gibbs free energy\nG = H - TS determines reaction spontaneity.",
+      "Newton's Laws of Motion\nNewton's First Law: an object remains at rest unless acted upon by a net external force. Second Law: F =\nma. Third Law: every action has an equal and opposite reaction. Momentum p = mv is conserved in closed\nsystems. Kinetic energy KE = 0.5mv^2. The work-energy theorem relates work done to change in kinetic\nenergy. Gravitational force F = Gm1m2\/r^2."
+    ],
+    "response":"The First Law of Thermodynamics states that energy cannot be created or destroyed, and the change in internal energy equals heat minus work.",
+    "reference":"The First Law of Thermodynamics states that energy cannot be created or destroyed; the change in internal energy equals heat minus work.",
+    "faithfulness":0.5,
+    "answer_relevancy":1.0,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What are the SOLID principles in software engineering?",
+    "retrieved_contexts":[
+      "Software Engineering and Agile\nAgile is an iterative development methodology. Scrum uses sprints of 1-4 weeks. Kanban visualizes workflow\non boards. SOLID principles guide object-oriented design: Single Responsibility, Open\/Closed, Liskov\nSubstitution, Interface Segregation, Dependency Inversion. Design patterns include Singleton, Factory,\nObserver, and MVC. Git enables branching, merging, and collaborative development.",
+      "Compiler Design\nA compiler translates source code to machine code through phases: lexical analysis, syntax analysis,\nsemantic analysis, optimization, and code generation. Lexer uses regular expressions and finite automata to\nproduce tokens. Parser builds a parse tree using grammar rules. LL parsers are top-down; LR parsers are\nbottom-up. Symbol tables store variable metadata. Intermediate representations aid optimization."
+    ],
+    "response":"The SOLID principles guide object-oriented design and consist of five principles: Single Responsibility, Open\/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",
+    "reference":"SOLID principles guide object-oriented design: Single Responsibility, Open\/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8670736148,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What does the Nyquist theorem state?",
+    "retrieved_contexts":[
+      "Signal Processing and Fourier Transforms\nFourier Transform decomposes a signal into frequency components. FFT is an efficient O(n log n) algorithm\nfor discrete signals. Nyquist theorem: sampling rate must exceed twice the highest frequency to avoid\naliasing. Low-pass filters remove high frequencies; high-pass filters remove low ones. Convolution in time\ndomain equals multiplication in frequency domain. Used in audio, image, and communication systems.",
+      "Linear Algebra and PCA\nAn eigenvector of matrix A satisfies Av = ev where e is the eigenvalue. Eigendecomposition factorizes a\nmatrix into eigenvectors and eigenvalues. PCA uses eigenvectors of the covariance matrix to reduce\ndimensionality. The first principal component captures maximum variance. SVD generalizes\neigendecomposition to non-square matrices. Dot product and matrix multiplication are fundamental\noperations."
+    ],
+    "response":"The Nyquist theorem states that the sampling rate must exceed twice the highest frequency to avoid aliasing.",
+    "reference":"The Nyquist theorem states that the sampling rate must exceed twice the highest frequency in a signal to avoid aliasing.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.9010252597,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is confirmation bias?",
+    "retrieved_contexts":[
+      "Psychology: Cognitive Biases\nCognitive biases are systematic errors in thinking. Confirmation bias favors information confirming existing\nbeliefs. Availability heuristic judges probability by ease of recall. Anchoring over-relies on the first piece of\ninformation encountered. Dunning-Kruger effect: low-ability individuals overestimate competence. Memory is\nreconstructive not reproductive. Piaget's stages: sensorimotor, preoperational, concrete operational, formal\noperational.",
+      "Machine Learning Basics\nGradient descent minimizes the loss function by iteratively adjusting weights using the gradient. Learning rate\ncontrols step size. Backpropagation applies the chain rule to compute gradients across layers. Overfitting\noccurs when a model memorizes training data; regularization (L1\/L2) and dropout help prevent it.\nBias-variance tradeoff: high bias = underfitting, high variance = overfitting."
+    ],
+    "response":"Confirmation bias favors information confirming existing beliefs.",
+    "reference":"Confirmation bias is a cognitive bias where a person favors information that confirms their existing beliefs.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.9009206637,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What did Marbury v. Madison establish?",
+    "retrieved_contexts":[
+      "Political Science: Federalism\nFederalism divides power between national and state governments. The US Constitution separates powers\ninto legislative, executive, and judicial branches. Checks and balances prevent any branch from dominating.\nMarbury v. Madison established judicial review. McCulloch v. Maryland affirmed federal supremacy. The Bill\nof Rights protects individual liberties. Electoral College elects the President through state-based electors.",
+      "History: World War II\nWWII (1939-1945) began with Germany's invasion of Poland. Key causes: Treaty of Versailles resentment,\nrise of fascism, global depression. D-Day (June 1944) was the Allied invasion of Normandy. Pearl Harbor\n(1941) brought the US into the war. The Holocaust resulted in genocide of 6 million Jews. Atomic bombs\nended the Pacific war. Post-war outcomes: UN founded, Marshall Plan, Cold War, and accelerated\ndecolonization."
+    ],
+    "response":"Marbury v. Madison established judicial review.",
+    "reference":"Marbury v. Madison established the principle of judicial review.",
+    "faithfulness":1.0,
+    "answer_relevancy":1.0,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is Kant's Categorical Imperative?",
+    "retrieved_contexts":[
+      "Philosophy: Ethics\nUtilitarianism holds that right actions maximize overall happiness. Deontology judges actions by adherence to\nduties regardless of consequences. Kant's Categorical Imperative: act only according to principles you would\nuniversalize. Virtue ethics focuses on character and the golden mean. Free will debate: determinism vs.\nlibertarian free will vs. compatibilism. The trolley problem illustrates conflict between utilitarian and\ndeontological reasoning.",
+      "English Literature: Shakespeare\nShakespeare's tragedies explore ambition (Macbeth), jealousy (Othello), and indecision (Hamlet). His\nsonnets follow the ABAB CDCD EFEF GG rhyme scheme. Close reading analyzes diction, imagery, syntax,\nand tone. The tragic hero has a fatal flaw (hamartia) leading to downfall. Dramatic irony occurs when the\naudience knows something characters do not. Soliloquies reveal inner thoughts directly to the audience."
+    ],
+    "response":"Kant's Categorical Imperative is to act only according to principles you would universalize.",
+    "reference":"Kant's Categorical Imperative states that one should act only according to principles that could be universalized.",
+    "faithfulness":1.0,
+    "answer_relevancy":1.0,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is the difference between SN1 and SN2 reactions?",
+    "retrieved_contexts":[
+      "Organic Chemistry Reactions\nSN1 reactions proceed via a carbocation intermediate; rate depends only on substrate concentration. SN2\ninvolves backside nucleophilic attack; rate depends on both substrate and nucleophile. Tertiary substrates\nfavor SN1; primary substrates favor SN2. Polar protic solvents stabilize SN1; polar aprotic solvents favor\nSN2. Elimination reactions (E1, E2) compete with substitution reactions depending on conditions.",
+      "Chemistry: Periodic Trends\nAtomic radius decreases across a period and increases down a group. Ionization energy increases across a\nperiod and decreases down a group. Electronegativity follows the same trend. Ionic bonds form between\nmetals and non-metals; covalent bonds between non-metals. VSEPR theory predicts molecular geometry.\nReaction rate = k[A]^m[B]^n; activation energy determines reaction speed. Catalysts lower activation energy."
+    ],
+    "response":"SN1 reactions proceed via a carbocation intermediate and their rate depends only on the substrate concentration. In contrast, SN2 reactions involve a backside nucleophilic attack and their rate depends on both the substrate and nucleophile concentrations. Additionally, the type of substrate favors one reaction over the other, with tertiary substrates favoring SN1 and primary substrates favoring SN2.",
+    "reference":"SN1 reactions proceed via a carbocation intermediate and depend only on substrate concentration, favoring tertiary substrates and polar protic solvents. SN2 involves backside nucleophilic attack, depends on both substrate and nucleophile concentration, and favors primary substrates and polar aprotic solvents.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.991474781,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is Banker's algorithm used for?",
+    "retrieved_contexts":[
+      "Data Structures and Complexity\nBig-O notation describes algorithm time complexity. Array access O(1), search O(n). Binary search O(log n).\nMerge sort O(n log n). Bubble sort O(n^2). Linked lists allow O(1) insertion at head but O(n) search. Hash\ntables provide O(1) average lookup. Binary Search Trees offer O(log n) operations when balanced. Graphs\nuse BFS and DFS for traversal.",
+      "OS Process Scheduling\nProcess scheduling determines the order in which processes access the CPU. Algorithms include FCFS,\nSJF, Round Robin, and Priority Scheduling. Context switching saves and restores process state. Deadlock\noccurs when processes wait indefinitely for resources held by each other. Banker's algorithm is used for\ndeadlock avoidance. Virtual memory allows processes to use more memory than physically available."
+    ],
+    "response":"Banker's algorithm is used for deadlock avoidance.",
+    "reference":"Banker's algorithm is used for deadlock avoidance in operating system process scheduling.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.7173416149,
+    "context_precision":0.5
+  },
+  {
+    "user_input":"What is Newton's Third Law?",
+    "retrieved_contexts":[
+      "Newton's Laws of Motion\nNewton's First Law: an object remains at rest unless acted upon by a net external force. Second Law: F =\nma. Third Law: every action has an equal and opposite reaction. Momentum p = mv is conserved in closed\nsystems. Kinetic energy KE = 0.5mv^2. The work-energy theorem relates work done to change in kinetic\nenergy. Gravitational force F = Gm1m2\/r^2.",
+      "Thermodynamics\nFirst Law: energy cannot be created or destroyed; change in internal energy equals heat minus work. Second\nLaw: entropy of an isolated system never decreases. Third Law: entropy approaches zero at absolute zero\ntemperature. Carnot efficiency sets the upper limit for heat engines. Enthalpy H = U + PV. Gibbs free energy\nG = H - TS determines reaction spontaneity."
+    ],
+    "response":"Every action has an equal and opposite reaction.",
+    "reference":"Newton's Third Law states that every action has an equal and opposite reaction.",
+    "faithfulness":null,
+    "answer_relevancy":0.5888182285,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"When does overfitting occur in machine learning?",
+    "retrieved_contexts":[
+      "Machine Learning Basics\nGradient descent minimizes the loss function by iteratively adjusting weights using the gradient. Learning rate\ncontrols step size. Backpropagation applies the chain rule to compute gradients across layers. Overfitting\noccurs when a model memorizes training data; regularization (L1\/L2) and dropout help prevent it.\nBias-variance tradeoff: high bias = underfitting, high variance = overfitting.",
+      "Psychology: Cognitive Biases\nCognitive biases are systematic errors in thinking. Confirmation bias favors information confirming existing\nbeliefs. Availability heuristic judges probability by ease of recall. Anchoring over-relies on the first piece of\ninformation encountered. Dunning-Kruger effect: low-ability individuals overestimate competence. Memory is\nreconstructive not reproductive. Piaget's stages: sensorimotor, preoperational, concrete operational, formal\noperational."
+    ],
+    "response":"Overfitting occurs when a model memorizes training data.",
+    "reference":"Overfitting occurs when a model memorizes the training data; regularization (L1\/L2) and dropout help prevent it.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.6809848497,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What does PCA use to reduce dimensionality?",
+    "retrieved_contexts":[
+      "Linear Algebra and PCA\nAn eigenvector of matrix A satisfies Av = ev where e is the eigenvalue. Eigendecomposition factorizes a\nmatrix into eigenvectors and eigenvalues. PCA uses eigenvectors of the covariance matrix to reduce\ndimensionality. The first principal component captures maximum variance. SVD generalizes\neigendecomposition to non-square matrices. Dot product and matrix multiplication are fundamental\noperations.",
+      "Machine Learning Basics\nGradient descent minimizes the loss function by iteratively adjusting weights using the gradient. Learning rate\ncontrols step size. Backpropagation applies the chain rule to compute gradients across layers. Overfitting\noccurs when a model memorizes training data; regularization (L1\/L2) and dropout help prevent it.\nBias-variance tradeoff: high bias = underfitting, high variance = overfitting."
+    ],
+    "response":"PCA uses eigenvectors of the covariance matrix to reduce dimensionality.",
+    "reference":"PCA uses eigenvectors of the covariance matrix to reduce dimensionality, with the first principal component capturing maximum variance.",
+    "faithfulness":0.75,
+    "answer_relevancy":1.0,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What event brought the US into World War II?",
+    "retrieved_contexts":[
+      "History: World War II\nWWII (1939-1945) began with Germany's invasion of Poland. Key causes: Treaty of Versailles resentment,\nrise of fascism, global depression. D-Day (June 1944) was the Allied invasion of Normandy. Pearl Harbor\n(1941) brought the US into the war. The Holocaust resulted in genocide of 6 million Jews. Atomic bombs\nended the Pacific war. Post-war outcomes: UN founded, Marshall Plan, Cold War, and accelerated\ndecolonization.",
+      "Political Science: Federalism\nFederalism divides power between national and state governments. The US Constitution separates powers\ninto legislative, executive, and judicial branches. Checks and balances prevent any branch from dominating.\nMarbury v. Madison established judicial review. McCulloch v. Maryland affirmed federal supremacy. The Bill\nof Rights protects individual liberties. Electoral College elects the President through state-based electors."
+    ],
+    "response":"Pearl Harbor (1941) brought the US into the war.",
+    "reference":"Pearl Harbor, attacked in 1941, brought the United States into World War II.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8858889304,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is a soliloquy in Shakespearean drama?",
+    "retrieved_contexts":[
+      "English Literature: Shakespeare\nShakespeare's tragedies explore ambition (Macbeth), jealousy (Othello), and indecision (Hamlet). His\nsonnets follow the ABAB CDCD EFEF GG rhyme scheme. Close reading analyzes diction, imagery, syntax,\nand tone. The tragic hero has a fatal flaw (hamartia) leading to downfall. Dramatic irony occurs when the\naudience knows something characters do not. Soliloquies reveal inner thoughts directly to the audience.",
+      "Philosophy: Ethics\nUtilitarianism holds that right actions maximize overall happiness. Deontology judges actions by adherence to\nduties regardless of consequences. Kant's Categorical Imperative: act only according to principles you would\nuniversalize. Virtue ethics focuses on character and the golden mean. Free will debate: determinism vs.\nlibertarian free will vs. compatibilism. The trolley problem illustrates conflict between utilitarian and\ndeontological reasoning."
+    ],
+    "response":"A soliloquy is a device in which a character's inner thoughts are revealed directly to the audience.",
+    "reference":"A soliloquy reveals a character's inner thoughts directly to the audience.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8485205542,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What does it mean if price elasticity of demand (PED) is greater than 1?",
+    "retrieved_contexts":[
+      "Economics: Supply and Demand\nDemand decreases as price increases, all else equal. Supply shows positive price-quantity relationship.\nEquilibrium is where supply meets demand. Price elasticity measures responsiveness to price change. PED\ngreater than 1 means elastic; less than 1 means inelastic. Consumer surplus is the area above price and\nbelow demand curve. GDP measures total economic output. Inflation is a sustained rise in the general price\nlevel.",
+      "Calculus: Limits and Derivatives\nA limit describes the value a function approaches as input nears a point. The derivative measures\ninstantaneous rate of change. Chain rule: derivative of f(g(x)) = f'(g(x)) times g'(x). Product rule: (uv)' = u'v +\nuv'. Integration is the inverse of differentiation. The Fundamental Theorem of Calculus links definite integrals\nto antiderivatives. Applications include optimization and area under curves."
+    ],
+    "response":"If the price elasticity of demand (PED) is greater than 1, it means that the demand is elastic, indicating that the quantity demanded is highly responsive to changes in price.",
+    "reference":"If PED is greater than 1, demand is considered elastic, meaning quantity demanded is highly responsive to price changes.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.9024799202,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What does 3NF remove in database normalization?",
+    "retrieved_contexts":[
+      "Database Normalization\nNormalization organizes relational databases to reduce redundancy. 1NF eliminates repeating groups. 2NF\nremoves partial dependencies on composite keys. 3NF removes transitive dependencies. BCNF is a stricter\nform of 3NF. SQL joins (INNER, LEFT, RIGHT, FULL) combine rows based on related columns. Indexes\nspeed up query performance. Transactions follow ACID properties: Atomicity, Consistency, Isolation,\nDurability.",
+      "Machine Learning Basics\nGradient descent minimizes the loss function by iteratively adjusting weights using the gradient. Learning rate\ncontrols step size. Backpropagation applies the chain rule to compute gradients across layers. Overfitting\noccurs when a model memorizes training data; regularization (L1\/L2) and dropout help prevent it.\nBias-variance tradeoff: high bias = underfitting, high variance = overfitting."
+    ],
+    "response":"3NF removes transitive dependencies.",
+    "reference":"3NF (Third Normal Form) removes transitive dependencies in a relational database.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8535631362,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is the time complexity of binary search?",
+    "retrieved_contexts":[
+      "Data Structures and Complexity\nBig-O notation describes algorithm time complexity. Array access O(1), search O(n). Binary search O(log n).\nMerge sort O(n log n). Bubble sort O(n^2). Linked lists allow O(1) insertion at head but O(n) search. Hash\ntables provide O(1) average lookup. Binary Search Trees offer O(log n) operations when balanced. Graphs\nuse BFS and DFS for traversal.",
+      "OS Process Scheduling\nProcess scheduling determines the order in which processes access the CPU. Algorithms include FCFS,\nSJF, Round Robin, and Priority Scheduling. Context switching saves and restores process state. Deadlock\noccurs when processes wait indefinitely for resources held by each other. Banker's algorithm is used for\ndeadlock avoidance. Virtual memory allows processes to use more memory than physically available."
+    ],
+    "response":"O(log n)",
+    "reference":"Binary search has a time complexity of O(log n).",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8968387291,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is the difference between TCP and UDP?",
+    "retrieved_contexts":[
+      "Computer Networks TCP\/IP\nThe TCP\/IP model has 4 layers: Application, Transport, Internet, Network Access. TCP provides reliable\nordered delivery using 3-way handshake. UDP is connectionless and faster. IP addresses identify devices;\nsubnetting divides networks using masks. DNS maps domain names to IPs. HTTP runs on port 80, HTTPS\non 443. Routers forward packets between networks using routing tables.",
+      "OS Process Scheduling\nProcess scheduling determines the order in which processes access the CPU. Algorithms include FCFS,\nSJF, Round Robin, and Priority Scheduling. Context switching saves and restores process state. Deadlock\noccurs when processes wait indefinitely for resources held by each other. Banker's algorithm is used for\ndeadlock avoidance. Virtual memory allows processes to use more memory than physically available."
+    ],
+    "response":"TCP provides reliable ordered delivery using a 3-way handshake, whereas UDP is connectionless and faster.",
+    "reference":"TCP provides reliable, ordered delivery using a 3-way handshake, while UDP is connectionless and faster but does not guarantee reliability.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.9787865507,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What are the phases of a compiler?",
+    "retrieved_contexts":[
+      "Compiler Design\nA compiler translates source code to machine code through phases: lexical analysis, syntax analysis,\nsemantic analysis, optimization, and code generation. Lexer uses regular expressions and finite automata to\nproduce tokens. Parser builds a parse tree using grammar rules. LL parsers are top-down; LR parsers are\nbottom-up. Symbol tables store variable metadata. Intermediate representations aid optimization.",
+      "Data Structures and Complexity\nBig-O notation describes algorithm time complexity. Array access O(1), search O(n). Binary search O(log n).\nMerge sort O(n log n). Bubble sort O(n^2). Linked lists allow O(1) insertion at head but O(n) search. Hash\ntables provide O(1) average lookup. Binary Search Trees offer O(log n) operations when balanced. Graphs\nuse BFS and DFS for traversal."
+    ],
+    "response":"The phases of a compiler are: lexical analysis, syntax analysis, semantic analysis, optimization, and code generation.",
+    "reference":"A compiler translates source code to machine code through the phases: lexical analysis, syntax analysis, semantic analysis, optimization, and code generation.",
+    "faithfulness":0.8333333333,
+    "answer_relevancy":1.0,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"How does atomic radius change across the periodic table?",
+    "retrieved_contexts":[
+      "Chemistry: Periodic Trends\nAtomic radius decreases across a period and increases down a group. Ionization energy increases across a\nperiod and decreases down a group. Electronegativity follows the same trend. Ionic bonds form between\nmetals and non-metals; covalent bonds between non-metals. VSEPR theory predicts molecular geometry.\nReaction rate = k[A]^m[B]^n; activation energy determines reaction speed. Catalysts lower activation energy.",
+      "Organic Chemistry Reactions\nSN1 reactions proceed via a carbocation intermediate; rate depends only on substrate concentration. SN2\ninvolves backside nucleophilic attack; rate depends on both substrate and nucleophile. Tertiary substrates\nfavor SN1; primary substrates favor SN2. Polar protic solvents stabilize SN1; polar aprotic solvents favor\nSN2. Elimination reactions (E1, E2) compete with substitution reactions depending on conditions."
+    ],
+    "response":"Atomic radius decreases across a period and increases down a group.",
+    "reference":"Atomic radius decreases across a period and increases down a group.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8767789007,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What is the chain rule in calculus?",
+    "retrieved_contexts":[
+      "Calculus: Limits and Derivatives\nA limit describes the value a function approaches as input nears a point. The derivative measures\ninstantaneous rate of change. Chain rule: derivative of f(g(x)) = f'(g(x)) times g'(x). Product rule: (uv)' = u'v +\nuv'. Integration is the inverse of differentiation. The Fundamental Theorem of Calculus links definite integrals\nto antiderivatives. Applications include optimization and area under curves.",
+      "Data Structures and Complexity\nBig-O notation describes algorithm time complexity. Array access O(1), search O(n). Binary search O(log n).\nMerge sort O(n log n). Bubble sort O(n^2). Linked lists allow O(1) insertion at head but O(n) search. Hash\ntables provide O(1) average lookup. Binary Search Trees offer O(log n) operations when balanced. Graphs\nuse BFS and DFS for traversal."
+    ],
+    "response":"The chain rule is the derivative of f(g(x)) = f'(g(x)) times g'(x).",
+    "reference":"The chain rule states that the derivative of f(g(x)) equals f'(g(x)) times g'(x).",
+    "faithfulness":1.0,
+    "answer_relevancy":0.6859415458,
+    "context_precision":0.9999999999
+  }
+]

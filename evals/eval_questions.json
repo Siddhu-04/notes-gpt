@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does the First Law of Thermodynamics state?",
+    "ground_truth": "The First Law of Thermodynamics states that energy cannot be created or destroyed; the change in internal energy equals heat minus work.",
+    "source": "Thermodynamics_Laws.pdf"
+  },
+  {
+    "question": "What are the SOLID principles in software engineering?",
+    "ground_truth": "SOLID principles guide object-oriented design: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",
+    "source": "Software_Engineering_Agile.pdf"
+  },
+  {
+    "question": "What does the Nyquist theorem state?",
+    "ground_truth": "The Nyquist theorem states that the sampling rate must exceed twice the highest frequency in a signal to avoid aliasing.",
+    "source": "Signal_Processing_Fourier.pdf"
+  },
+  {
+    "question": "What is confirmation bias?",
+    "ground_truth": "Confirmation bias is a cognitive bias where a person favors information that confirms their existing beliefs.",
+    "source": "Psychology_Cognitive_Bias.pdf"
+  },
+  {
+    "question": "What did Marbury v. Madison establish?",
+    "ground_truth": "Marbury v. Madison established the principle of judicial review.",
+    "source": "Political_Science_Federalism.pdf"
+  },
+  {
+    "question": "What is Kant's Categorical Imperative?",
+    "ground_truth": "Kant's Categorical Imperative states that one should act only according to principles that could be universalized.",
+    "source": "Philosophy_Ethics.pdf"
+  },
+  {
+    "question": "What is the difference between SN1 and SN2 reactions?",
+    "ground_truth": "SN1 reactions proceed via a carbocation intermediate and depend only on substrate concentration, favoring tertiary substrates and polar protic solvents. SN2 involves backside nucleophilic attack, depends on both substrate and nucleophile concentration, and favors primary substrates and polar aprotic solvents.",
+    "source": "Organic_Chemistry_Reactions.pdf"
+  },
+  {
+    "question": "What is Banker's algorithm used for?",
+    "ground_truth": "Banker's algorithm is used for deadlock avoidance in operating system process scheduling.",
+    "source": "Operating_Systems_Scheduling.pdf"
+  },
+  {
+    "question": "What is Newton's Third Law?",
+    "ground_truth": "Newton's Third Law states that every action has an equal and opposite reaction.",
+    "source": "Newtons_Laws_Physics.pdf"
+  },
+  {
+    "question": "When does overfitting occur in machine learning?",
+    "ground_truth": "Overfitting occurs when a model memorizes the training data; regularization (L1/L2) and dropout help prevent it.",
+    "source": "Machine_Learning_Basics.pdf"
+  },
+  {
+    "question": "What does PCA use to reduce dimensionality?",
+    "ground_truth": "PCA uses eigenvectors of the covariance matrix to reduce dimensionality, with the first principal component capturing maximum variance.",
+    "source": "Linear_Algebra_Eigenvalues.pdf"
+  },
+  {
+    "question": "What event brought the US into World War II?",
+    "ground_truth": "Pearl Harbor, attacked in 1941, brought the United States into World War II.",
+    "source": "History_World_War_II.pdf"
+  },
+  {
+    "question": "What is a soliloquy in Shakespearean drama?",
+    "ground_truth": "A soliloquy reveals a character's inner thoughts directly to the audience.",
+    "source": "English_Literature_Shakespeare.pdf"
+  },
+  {
+    "question": "What does it mean if price elasticity of demand (PED) is greater than 1?",
+    "ground_truth": "If PED is greater than 1, demand is considered elastic, meaning quantity demanded is highly responsive to price changes.",
+    "source": "Economics_Supply_Demand.pdf"
+  },
+  {
+    "question": "What does 3NF remove in database normalization?",
+    "ground_truth": "3NF (Third Normal Form) removes transitive dependencies in a relational database.",
+    "source": "Database_Normalization.pdf"
+  },
+  {
+    "question": "What is the time complexity of binary search?",
+    "ground_truth": "Binary search has a time complexity of O(log n).",
+    "source": "Data_Structures_Big_O.pdf"
+  },
+  {
+    "question": "What is the difference between TCP and UDP?",
+    "ground_truth": "TCP provides reliable, ordered delivery using a 3-way handshake, while UDP is connectionless and faster but does not guarantee reliability.",
+    "source": "Computer_Networks_TCP_IP.pdf"
+  },
+  {
+    "question": "What are the phases of a compiler?",
+    "ground_truth": "A compiler translates source code to machine code through the phases: lexical analysis, syntax analysis, semantic analysis, optimization, and code generation.",
+    "source": "Compiler_Design_Parsing.pdf"
+  },
+  {
+    "question": "How does atomic radius change across the periodic table?",
+    "ground_truth": "Atomic radius decreases across a period and increases down a group.",
+    "source": "Chemistry_Periodic_Trends.pdf"
+  },
+  {
+    "question": "What is the chain rule in calculus?",
+    "ground_truth": "The chain rule states that the derivative of f(g(x)) equals f'(g(x)) times g'(x).",
+    "source": "Calculus_Derivatives.pdf"
+  }
+]
