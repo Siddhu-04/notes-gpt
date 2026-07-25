@@ -1,5 +1,5 @@
 import json
-from llamaindex_version import query_engine  # reuse the setup above
+from llamaindex_version import query_engine
 
 questions = json.load(open("evals/eval_questions.json"))
 
