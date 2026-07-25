@@ -15,7 +15,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 judge = LangchainLLMWrapper(ChatOpenAI(
     base_url="https://api.groq.com/openai/v1",
     api_key=os.getenv("GROQ_API_KEY"),
-    model="llama-3.1-8b-instant",   # <-- much higher free daily budget than 70b
+    model="llama-3.1-8b-instant",
 ))
 
 embeddings = LangchainEmbeddingsWrapper(
